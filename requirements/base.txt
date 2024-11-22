@@ -1,0 +1,3 @@
+# GUI
+PySide6
+# darkdetect==0.8.0  # For auto dark/light theme

@@ -1,11 +1,10 @@
 # src/telegram_ai_assistant/gui/main_window.py
-from PySide6.QtWidgets import (
-    QMainWindow,
-    QWidget,
-    QHBoxLayout,
-    QStackedWidget,
-)
 from PySide6.QtCore import Slot
+from PySide6.QtWidgets import QHBoxLayout
+from PySide6.QtWidgets import QMainWindow
+from PySide6.QtWidgets import QStackedWidget
+from PySide6.QtWidgets import QWidget
+
 from .auth_widget import AuthWidget
 from .chat_list_widget import ChatListWidget
 from .chat_view_widget import ChatViewWidget

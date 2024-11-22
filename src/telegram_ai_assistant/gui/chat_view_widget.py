@@ -1,7 +1,10 @@
-
 # src/telegram_ai_assistant/gui/chat_view_widget.py
 from PySide6.QtCore import Slot
-from PySide6.QtWidgets import (QLineEdit, QPushButton, QTextEdit, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import QLineEdit
+from PySide6.QtWidgets import QPushButton
+from PySide6.QtWidgets import QTextEdit
+from PySide6.QtWidgets import QVBoxLayout
+from PySide6.QtWidgets import QWidget
 
 
 class ChatViewWidget(QWidget):
@@ -30,7 +33,6 @@ class ChatViewWidget(QWidget):
     def load_chat(self, chat_id):
         """Загрузка истории чата"""
         # TODO: Загрузка истории через Telegram API
-        pass
 
     def send_message(self):
         """Отправка сообщения"""
